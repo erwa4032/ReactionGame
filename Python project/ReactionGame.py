@@ -263,34 +263,5 @@ while(True):
     topOfLoop()
 
 
-# to open/create a new html file in the write mode
-f = open('ReactionGame.html', 'w')
-
-
-html_template = """
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>ReactionGame</title>
-  </head>
-  <body style = "background-color: lightblue;">
-
-  </body>
-</html>
-"""
-
-# writing the code into the file
-f.write(html_template)
-
-# close the file
-f.close()
-
-
-# viewing html site
-import webbrowser
-
-# open html file
-webbrowser.open('ReactionGame.html')
 
 mainloop()
